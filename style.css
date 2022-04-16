@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url("C:/Users/pc/Desktop/patika ödev/css/giriş resmi.jpg");
+    background-size: cover;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header nav {
+    height: 100px;
+    border-bottom: 2px solid brown;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+header nav.logo a {
+    color: green;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    column-gap: 30px;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: green;
+    text-decoration: none;
+    transition: color .25s ease;
+}
+
+nav ul li a:hover {
+    color: blue;
+}
+
+nav.menu {
+    display: flex;
+    align-items: center;
+}
+
+@media(max-width:100px) {
+    .container {
+        width: 100%;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+    .menu ul {
+        column-gap: 10px;
+    }
+
+    .content {
+        padding-top: 50px;
+    }
+
+    .content h1 {
+        font-size: 30px;
+    }
+
+    .content h2 {
+        font-size: 20px;
+
+    }
+
+    .content.p {
+        font-size: 16px;
+    }
+}
+
+.content {
+    color: rgb(0, 255, 242);
+    padding-top: 50px;
+}
+
+.content h1 {
+    font-size: 60px;
+    text-align: center;
+    color: brown;
+}
+
+.content.p {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+img {
+
+    height: 20%;
+
+    width: 20%;
+
+}
+
+a {
+    text-decoration: none;
+}
